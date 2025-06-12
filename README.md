@@ -13,52 +13,6 @@ Este projeto aproveita o poder da visão computacional para ajudar professores a
 - Uma questão é considerada desmarcada se não houver opções marcadas ou se mais de uma opção for marcada na mesma linha.
 - As opções marcadas são então comparadas com as respostas corretas para calcular a pontuação.
 
-## Demonstração 
-|![Contornos](./images/contours.png)|
-|:--:|
-|*Detecção de Contornos*|
-
-|![Transformação de Perspectiva](./images/perspective_transform.png)|
-|:--:|
-|*Imagem Transformada*|
-
-|![Binário](./images/binary.png)|
-|:--:|
-|*Imagem Binária*|
-
-
-|![Células da Imagem](./images/cells.png)|
-|:--:|
-|*Células da Imagem*|
-
-## Como Usar
-|![Criar Exame](./images/create%20exam.png)|
-|:--:|
-|*Criar Exame*|
-
-|![Nome do Exame](./images/exam%20name.png)|
-|:--:|
-|*Nome do Exame*|
-
-|![Carregar Solução](./images/upload%20solution.png)|
-|:--:|
-|*Carregar Solução*|
-
-
-|![Carregar Respostas](./images/upload%20answers.png)|
-|:--:|
-|*Carregar Respostas*|
-
-
-|![Detalhes do Exame](./images/exam%20details.png)|
-|:--:|
-|*Detalhes do Exame*|
-
-
-|![Todos os Exames](./images/all%20exams.png)|
-|:--:|
-|*Todos os Exames*|
-
 ## Ações Individuais do Exame:
 Você pode agora realizar as seguintes ações:
 - **Carregar uma Nova Solução:** Clique em 'Upload Solution' para fornecer uma nova solução.
@@ -122,7 +76,3 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
     yarn dev
     ```
 4.  Abra seu navegador e acesse `http://localhost:3000` para ver a aplicação em funcionamento.
-
-## Colaboradores
-- [Hamza Iftikhar](https://github.com/hmzaiftkhar)
-- [Hamza Khalid](https://github.com/hmzakhalid)
